@@ -17,26 +17,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TSURU1891A041_TP_V4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Li0-f0-GYT">
-                                <rect key="frame" x="16" y="63" width="343" height="239"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TSURU1891A041_TP_V4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Li0-f0-GYT">
+                                <rect key="frame" x="16" y="63" width="343" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="EQX-Y8-2ke"/>
+                                    <constraint firstAttribute="width" constant="343" id="Yyj-OI-cSp"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="アイドルとろう" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTr-Ku-EEr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アイドルとろう" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTr-Ku-EEr">
                                 <rect key="frame" x="126" y="26" width="122" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="料金 1時間 1000円" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGA-6n-YQl">
-                                <rect key="frame" x="27" y="323" width="142" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="料金 1時間 1000円" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGA-6n-YQl">
+                                <rect key="frame" x="116.5" y="323" width="142" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IGA-6n-YQl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6i9-4A-1aV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uTr-Ku-EEr" secondAttribute="trailing" constant="127" id="IAH-Rx-YFb"/>
+                            <constraint firstItem="IGA-6n-YQl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OHI-xH-RDB"/>
+                            <constraint firstItem="Li0-f0-GYT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="VRy-8n-GRP"/>
+                            <constraint firstItem="uTr-Ku-EEr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="6" id="YqC-7w-ksX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Li0-f0-GYT" secondAttribute="trailing" constant="16" id="dTq-pf-ENo"/>
+                            <constraint firstItem="uTr-Ku-EEr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="lGh-zQ-BVt"/>
+                            <constraint firstItem="Li0-f0-GYT" firstAttribute="top" secondItem="uTr-Ku-EEr" secondAttribute="bottom" constant="16" id="wNj-Z3-5Bg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
