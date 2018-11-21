@@ -12,6 +12,7 @@
 		9F717FAF21A52DC300A08C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F717FAD21A52DC300A08C66 /* Main.storyboard */; };
 		9F717FB121A52DC600A08C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F717FB021A52DC600A08C66 /* Assets.xcassets */; };
 		9F717FB421A52DC600A08C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F717FB221A52DC600A08C66 /* LaunchScreen.storyboard */; };
+		9F717FBC21A52E6800A08C66 /* TSURU1891A041_TP_V4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F717FBB21A52E6800A08C66 /* TSURU1891A041_TP_V4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9F717FB021A52DC600A08C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F717FB321A52DC600A08C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F717FB521A52DC600A08C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F717FBB21A52E6800A08C66 /* TSURU1891A041_TP_V4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TSURU1891A041_TP_V4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				9F717FA921A52DC300A08C66 /* AppDelegate.swift */,
 				9F717FAB21A52DC300A08C66 /* ViewController.swift */,
+				9F717FBB21A52E6800A08C66 /* TSURU1891A041_TP_V4.jpg */,
 				9F717FAD21A52DC300A08C66 /* Main.storyboard */,
 				9F717FB021A52DC600A08C66 /* Assets.xcassets */,
 				9F717FB221A52DC600A08C66 /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				9F717FB421A52DC600A08C66 /* LaunchScreen.storyboard in Resources */,
 				9F717FB121A52DC600A08C66 /* Assets.xcassets in Resources */,
+				9F717FBC21A52E6800A08C66 /* TSURU1891A041_TP_V4.jpg in Resources */,
 				9F717FAF21A52DC300A08C66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
